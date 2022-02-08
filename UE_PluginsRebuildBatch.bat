@@ -17,6 +17,6 @@ D:
 
 rem 开始执行
 cd %TargetVersionPath%
-rem RunUAT.bat BuildPlugin -plugin="%OriginalPluginPath%" -package="%RebuildPluginPath%"
+RunUAT.bat BuildPlugin -plugin="%OriginalPluginPath%" -package="%RebuildPluginPath%"
 
 cmd
